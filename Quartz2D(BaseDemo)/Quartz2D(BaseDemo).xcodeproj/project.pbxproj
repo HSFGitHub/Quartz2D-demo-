@@ -30,6 +30,10 @@
 		D970D5B41B86138E007851CF /* PieOfProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = D970D5B21B86138E007851CF /* PieOfProgressView.m */; };
 		D970D5BA1B8613AF007851CF /* ScaleTranslateRotateView.m in Sources */ = {isa = PBXBuildFile; fileRef = D970D5B71B8613AF007851CF /* ScaleTranslateRotateView.m */; };
 		D970D5BB1B8613AF007851CF /* ScaleTranslateRotateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D970D5B91B8613AF007851CF /* ScaleTranslateRotateViewController.m */; };
+		D9C33CAC1B861C5C00D1ACE9 /* StringDrawToViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C33CAB1B861C5C00D1ACE9 /* StringDrawToViewController.m */; };
+		D9C33CAF1B861C8300D1ACE9 /* StringDrawToView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C33CAE1B861C8300D1ACE9 /* StringDrawToView.m */; };
+		D9C33CB61B8621C200D1ACE9 /* ImageDrawToViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C33CB51B8621C200D1ACE9 /* ImageDrawToViewController.m */; };
+		D9C33CB91B8621D500D1ACE9 /* ImageDrawToView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C33CB81B8621D500D1ACE9 /* ImageDrawToView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +92,14 @@
 		D970D5B71B8613AF007851CF /* ScaleTranslateRotateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaleTranslateRotateView.m; sourceTree = "<group>"; };
 		D970D5B81B8613AF007851CF /* ScaleTranslateRotateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaleTranslateRotateViewController.h; sourceTree = "<group>"; };
 		D970D5B91B8613AF007851CF /* ScaleTranslateRotateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaleTranslateRotateViewController.m; sourceTree = "<group>"; };
+		D9C33CAA1B861C5C00D1ACE9 /* StringDrawToViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringDrawToViewController.h; sourceTree = "<group>"; };
+		D9C33CAB1B861C5C00D1ACE9 /* StringDrawToViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringDrawToViewController.m; sourceTree = "<group>"; };
+		D9C33CAD1B861C8300D1ACE9 /* StringDrawToView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringDrawToView.h; sourceTree = "<group>"; };
+		D9C33CAE1B861C8300D1ACE9 /* StringDrawToView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringDrawToView.m; sourceTree = "<group>"; };
+		D9C33CB41B8621C200D1ACE9 /* ImageDrawToViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDrawToViewController.h; sourceTree = "<group>"; };
+		D9C33CB51B8621C200D1ACE9 /* ImageDrawToViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDrawToViewController.m; sourceTree = "<group>"; };
+		D9C33CB71B8621D500D1ACE9 /* ImageDrawToView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDrawToView.h; sourceTree = "<group>"; };
+		D9C33CB81B8621D500D1ACE9 /* ImageDrawToView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDrawToView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +141,8 @@
 		D970D55A1B8611A6007851CF /* Quartz2D(BaseDemo) */ = {
 			isa = PBXGroup;
 			children = (
+				D9C33CB01B86215100D1ACE9 /* ImageDrawToView */,
+				D9C33CA61B861BD900D1ACE9 /* NSStringDrawToView(绘画文字) */,
 				D970D5B51B861395007851CF /* ScaleTranslateRotate(缩放|平移|旋转) */,
 				D970D5AE1B86135F007851CF /* PieOfProgress(进度条) */,
 				D970D5A71B86130F007851CF /* NonZero(非零绕数填充法) */,
@@ -271,6 +285,28 @@
 			name = "ScaleTranslateRotate(缩放|平移|旋转)";
 			sourceTree = "<group>";
 		};
+		D9C33CA61B861BD900D1ACE9 /* NSStringDrawToView(绘画文字) */ = {
+			isa = PBXGroup;
+			children = (
+				D9C33CAA1B861C5C00D1ACE9 /* StringDrawToViewController.h */,
+				D9C33CAB1B861C5C00D1ACE9 /* StringDrawToViewController.m */,
+				D9C33CAD1B861C8300D1ACE9 /* StringDrawToView.h */,
+				D9C33CAE1B861C8300D1ACE9 /* StringDrawToView.m */,
+			);
+			name = "NSStringDrawToView(绘画文字)";
+			sourceTree = "<group>";
+		};
+		D9C33CB01B86215100D1ACE9 /* ImageDrawToView */ = {
+			isa = PBXGroup;
+			children = (
+				D9C33CB41B8621C200D1ACE9 /* ImageDrawToViewController.h */,
+				D9C33CB51B8621C200D1ACE9 /* ImageDrawToViewController.m */,
+				D9C33CB71B8621D500D1ACE9 /* ImageDrawToView.h */,
+				D9C33CB81B8621D500D1ACE9 /* ImageDrawToView.m */,
+			);
+			name = ImageDrawToView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -379,14 +415,18 @@
 				D970D5981B8612A0007851CF /* PieViewController.m in Sources */,
 				D970D5611B8611A6007851CF /* AppDelegate.m in Sources */,
 				D970D59F1B8612D6007851CF /* EvenOddFillRuleViewController.m in Sources */,
+				D9C33CB91B8621D500D1ACE9 /* ImageDrawToView.m in Sources */,
 				D970D5B41B86138E007851CF /* PieOfProgressView.m in Sources */,
 				D970D5AC1B861349007851CF /* NonzeroViewController.m in Sources */,
 				D970D5A61B861306007851CF /* DrawStyleViewController.m in Sources */,
 				D970D5A51B861306007851CF /* DrawStyleAndFill.m in Sources */,
 				D970D5891B861261007851CF /* DrawBase.m in Sources */,
 				D970D5971B8612A0007851CF /* PieView.m in Sources */,
+				D9C33CAC1B861C5C00D1ACE9 /* StringDrawToViewController.m in Sources */,
+				D9C33CB61B8621C200D1ACE9 /* ImageDrawToViewController.m in Sources */,
 				D970D5901B861285007851CF /* BarViewController.m in Sources */,
 				D970D55E1B8611A6007851CF /* main.m in Sources */,
+				D9C33CAF1B861C8300D1ACE9 /* StringDrawToView.m in Sources */,
 				D970D5BA1B8613AF007851CF /* ScaleTranslateRotateView.m in Sources */,
 				D970D59E1B8612D6007851CF /* EvenOddFillRuleView.m in Sources */,
 				D970D5B31B86138E007851CF /* PieOfProgressViewController.m in Sources */,
@@ -576,6 +616,7 @@
 				D970D57D1B8611A6007851CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D970D57E1B8611A6007851CF /* Build configuration list for PBXNativeTarget "Quartz2D(BaseDemo)Tests" */ = {
 			isa = XCConfigurationList;
@@ -584,6 +625,7 @@
 				D970D5801B8611A6007851CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
