@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D970D55E1B8611A6007851CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D970D55D1B8611A6007851CF /* main.m */; };
+		D970D5611B8611A6007851CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D970D5601B8611A6007851CF /* AppDelegate.m */; };
+		D970D5641B8611A6007851CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D970D5631B8611A6007851CF /* ViewController.m */; };
+		D970D5691B8611A6007851CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D970D5681B8611A6007851CF /* Images.xcassets */; };
+		D970D56C1B8611A6007851CF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D970D56A1B8611A6007851CF /* LaunchScreen.xib */; };
+		D970D5781B8611A6007851CF /* Quartz2D_BaseDemo_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D970D5771B8611A6007851CF /* Quartz2D_BaseDemo_Tests.m */; };
+		D970D5821B8611D9007851CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D970D5811B8611D9007851CF /* Main.storyboard */; };
+		D970D5891B861261007851CF /* DrawBase.m in Sources */ = {isa = PBXBuildFile; fileRef = D970D5861B861261007851CF /* DrawBase.m */; };
+		D970D58A1B861261007851CF /* DrawBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D970D5881B861261007851CF /* DrawBaseViewController.m */; };
+		D970D5901B861285007851CF /* BarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D970D58D1B861285007851CF /* BarViewController.m */; };
+		D970D5911B861285007851CF /* BarView.m in Sources */ = {isa = PBXBuildFile; fileRef = D970D58F1B861285007851CF /* BarView.m */; };
+		D970D5971B8612A0007851CF /* PieView.m in Sources */ = {isa = PBXBuildFile; fileRef = D970D5941B8612A0007851CF /* PieView.m */; };
+		D970D5981B8612A0007851CF /* PieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D970D5961B8612A0007851CF /* PieViewController.m */; };
+		D970D59E1B8612D6007851CF /* EvenOddFillRuleView.m in Sources */ = {isa = PBXBuildFile; fileRef = D970D59B1B8612D6007851CF /* EvenOddFillRuleView.m */; };
+		D970D59F1B8612D6007851CF /* EvenOddFillRuleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D970D59D1B8612D6007851CF /* EvenOddFillRuleViewController.m */; };
+		D970D5A51B861306007851CF /* DrawStyleAndFill.m in Sources */ = {isa = PBXBuildFile; fileRef = D970D5A21B861306007851CF /* DrawStyleAndFill.m */; };
+		D970D5A61B861306007851CF /* DrawStyleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D970D5A41B861306007851CF /* DrawStyleViewController.m */; };
+		D970D5AC1B861349007851CF /* NonzeroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D970D5A91B861349007851CF /* NonzeroViewController.m */; };
+		D970D5AD1B861349007851CF /* NonzeroView.m in Sources */ = {isa = PBXBuildFile; fileRef = D970D5AB1B861349007851CF /* NonzeroView.m */; };
+		D970D5B31B86138E007851CF /* PieOfProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D970D5B01B86138E007851CF /* PieOfProgressViewController.m */; };
+		D970D5B41B86138E007851CF /* PieOfProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = D970D5B21B86138E007851CF /* PieOfProgressView.m */; };
+		D970D5BA1B8613AF007851CF /* ScaleTranslateRotateView.m in Sources */ = {isa = PBXBuildFile; fileRef = D970D5B71B8613AF007851CF /* ScaleTranslateRotateView.m */; };
+		D970D5BB1B8613AF007851CF /* ScaleTranslateRotateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D970D5B91B8613AF007851CF /* ScaleTranslateRotateViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D970D5721B8611A6007851CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D970D5501B8611A6007851CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D970D5571B8611A6007851CF;
+			remoteInfo = "Quartz2D(BaseDemo)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D970D5581B8611A6007851CF /* Quartz2D(BaseDemo).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quartz2D(BaseDemo).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D970D55C1B8611A6007851CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D970D55D1B8611A6007851CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D970D55F1B8611A6007851CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D970D5601B8611A6007851CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D970D5621B8611A6007851CF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D970D5631B8611A6007851CF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D970D5681B8611A6007851CF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D970D56B1B8611A6007851CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D970D5711B8611A6007851CF /* Quartz2D(BaseDemo)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quartz2D(BaseDemo)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D970D5761B8611A6007851CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D970D5771B8611A6007851CF /* Quartz2D_BaseDemo_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quartz2D_BaseDemo_Tests.m; sourceTree = "<group>"; };
+		D970D5811B8611D9007851CF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D970D5851B861261007851CF /* DrawBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawBase.h; sourceTree = "<group>"; };
+		D970D5861B861261007851CF /* DrawBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawBase.m; sourceTree = "<group>"; };
+		D970D5871B861261007851CF /* DrawBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawBaseViewController.h; sourceTree = "<group>"; };
+		D970D5881B861261007851CF /* DrawBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawBaseViewController.m; sourceTree = "<group>"; };
+		D970D58C1B861285007851CF /* BarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarViewController.h; sourceTree = "<group>"; };
+		D970D58D1B861285007851CF /* BarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarViewController.m; sourceTree = "<group>"; };
+		D970D58E1B861285007851CF /* BarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarView.h; sourceTree = "<group>"; };
+		D970D58F1B861285007851CF /* BarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarView.m; sourceTree = "<group>"; };
+		D970D5931B8612A0007851CF /* PieView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieView.h; sourceTree = "<group>"; };
+		D970D5941B8612A0007851CF /* PieView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieView.m; sourceTree = "<group>"; };
+		D970D5951B8612A0007851CF /* PieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieViewController.h; sourceTree = "<group>"; };
+		D970D5961B8612A0007851CF /* PieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieViewController.m; sourceTree = "<group>"; };
+		D970D59A1B8612D6007851CF /* EvenOddFillRuleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvenOddFillRuleView.h; sourceTree = "<group>"; };
+		D970D59B1B8612D6007851CF /* EvenOddFillRuleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvenOddFillRuleView.m; sourceTree = "<group>"; };
+		D970D59C1B8612D6007851CF /* EvenOddFillRuleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EvenOddFillRuleViewController.h; sourceTree = "<group>"; };
+		D970D59D1B8612D6007851CF /* EvenOddFillRuleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvenOddFillRuleViewController.m; sourceTree = "<group>"; };
+		D970D5A11B861306007851CF /* DrawStyleAndFill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawStyleAndFill.h; sourceTree = "<group>"; };
+		D970D5A21B861306007851CF /* DrawStyleAndFill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawStyleAndFill.m; sourceTree = "<group>"; };
+		D970D5A31B861306007851CF /* DrawStyleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawStyleViewController.h; sourceTree = "<group>"; };
+		D970D5A41B861306007851CF /* DrawStyleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawStyleViewController.m; sourceTree = "<group>"; };
+		D970D5A81B861349007851CF /* NonzeroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NonzeroViewController.h; sourceTree = "<group>"; };
+		D970D5A91B861349007851CF /* NonzeroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NonzeroViewController.m; sourceTree = "<group>"; };
+		D970D5AA1B861349007851CF /* NonzeroView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NonzeroView.h; sourceTree = "<group>"; };
+		D970D5AB1B861349007851CF /* NonzeroView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NonzeroView.m; sourceTree = "<group>"; };
+		D970D5AF1B86138E007851CF /* PieOfProgressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieOfProgressViewController.h; sourceTree = "<group>"; };
+		D970D5B01B86138E007851CF /* PieOfProgressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieOfProgressViewController.m; sourceTree = "<group>"; };
+		D970D5B11B86138E007851CF /* PieOfProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieOfProgressView.h; sourceTree = "<group>"; };
+		D970D5B21B86138E007851CF /* PieOfProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieOfProgressView.m; sourceTree = "<group>"; };
+		D970D5B61B8613AF007851CF /* ScaleTranslateRotateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaleTranslateRotateView.h; sourceTree = "<group>"; };
+		D970D5B71B8613AF007851CF /* ScaleTranslateRotateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaleTranslateRotateView.m; sourceTree = "<group>"; };
+		D970D5B81B8613AF007851CF /* ScaleTranslateRotateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaleTranslateRotateViewController.h; sourceTree = "<group>"; };
+		D970D5B91B8613AF007851CF /* ScaleTranslateRotateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaleTranslateRotateViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D970D5551B8611A6007851CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D970D56E1B8611A6007851CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D970D54F1B8611A6007851CF = {
+			isa = PBXGroup;
+			children = (
+				D970D55A1B8611A6007851CF /* Quartz2D(BaseDemo) */,
+				D970D5741B8611A6007851CF /* Quartz2D(BaseDemo)Tests */,
+				D970D5591B8611A6007851CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D970D5591B8611A6007851CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D970D5581B8611A6007851CF /* Quartz2D(BaseDemo).app */,
+				D970D5711B8611A6007851CF /* Quartz2D(BaseDemo)Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D970D55A1B8611A6007851CF /* Quartz2D(BaseDemo) */ = {
+			isa = PBXGroup;
+			children = (
+				D970D5B51B861395007851CF /* ScaleTranslateRotate(缩放|平移|旋转) */,
+				D970D5AE1B86135F007851CF /* PieOfProgress(进度条) */,
+				D970D5A71B86130F007851CF /* NonZero(非零绕数填充法) */,
+				D970D5A01B8612DD007851CF /* DrawStyle(填充样式) */,
+				D970D5991B8612A5007851CF /* EvenOddFillRule(奇偶填充) */,
+				D970D5921B861289007851CF /* Pie(扇形图) */,
+				D970D58B1B861266007851CF /* Bar(柱状图) */,
+				D970D5841B861244007851CF /* DrawBase(绘画基本类型) */,
+				D970D5831B861209007851CF /* Other */,
+				D970D5811B8611D9007851CF /* Main.storyboard */,
+				D970D55B1B8611A6007851CF /* Supporting Files */,
+			);
+			path = "Quartz2D(BaseDemo)";
+			sourceTree = "<group>";
+		};
+		D970D55B1B8611A6007851CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D970D55C1B8611A6007851CF /* Info.plist */,
+				D970D55D1B8611A6007851CF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D970D5741B8611A6007851CF /* Quartz2D(BaseDemo)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D970D5771B8611A6007851CF /* Quartz2D_BaseDemo_Tests.m */,
+				D970D5751B8611A6007851CF /* Supporting Files */,
+			);
+			path = "Quartz2D(BaseDemo)Tests";
+			sourceTree = "<group>";
+		};
+		D970D5751B8611A6007851CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D970D5761B8611A6007851CF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D970D5831B861209007851CF /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				D970D5681B8611A6007851CF /* Images.xcassets */,
+				D970D56A1B8611A6007851CF /* LaunchScreen.xib */,
+				D970D55F1B8611A6007851CF /* AppDelegate.h */,
+				D970D5601B8611A6007851CF /* AppDelegate.m */,
+				D970D5621B8611A6007851CF /* ViewController.h */,
+				D970D5631B8611A6007851CF /* ViewController.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		D970D5841B861244007851CF /* DrawBase(绘画基本类型) */ = {
+			isa = PBXGroup;
+			children = (
+				D970D5851B861261007851CF /* DrawBase.h */,
+				D970D5861B861261007851CF /* DrawBase.m */,
+				D970D5871B861261007851CF /* DrawBaseViewController.h */,
+				D970D5881B861261007851CF /* DrawBaseViewController.m */,
+			);
+			name = "DrawBase(绘画基本类型)";
+			sourceTree = "<group>";
+		};
+		D970D58B1B861266007851CF /* Bar(柱状图) */ = {
+			isa = PBXGroup;
+			children = (
+				D970D58C1B861285007851CF /* BarViewController.h */,
+				D970D58D1B861285007851CF /* BarViewController.m */,
+				D970D58E1B861285007851CF /* BarView.h */,
+				D970D58F1B861285007851CF /* BarView.m */,
+			);
+			name = "Bar(柱状图)";
+			sourceTree = "<group>";
+		};
+		D970D5921B861289007851CF /* Pie(扇形图) */ = {
+			isa = PBXGroup;
+			children = (
+				D970D5931B8612A0007851CF /* PieView.h */,
+				D970D5941B8612A0007851CF /* PieView.m */,
+				D970D5951B8612A0007851CF /* PieViewController.h */,
+				D970D5961B8612A0007851CF /* PieViewController.m */,
+			);
+			name = "Pie(扇形图)";
+			sourceTree = "<group>";
+		};
+		D970D5991B8612A5007851CF /* EvenOddFillRule(奇偶填充) */ = {
+			isa = PBXGroup;
+			children = (
+				D970D59A1B8612D6007851CF /* EvenOddFillRuleView.h */,
+				D970D59B1B8612D6007851CF /* EvenOddFillRuleView.m */,
+				D970D59C1B8612D6007851CF /* EvenOddFillRuleViewController.h */,
+				D970D59D1B8612D6007851CF /* EvenOddFillRuleViewController.m */,
+			);
+			name = "EvenOddFillRule(奇偶填充)";
+			sourceTree = "<group>";
+		};
+		D970D5A01B8612DD007851CF /* DrawStyle(填充样式) */ = {
+			isa = PBXGroup;
+			children = (
+				D970D5A11B861306007851CF /* DrawStyleAndFill.h */,
+				D970D5A21B861306007851CF /* DrawStyleAndFill.m */,
+				D970D5A31B861306007851CF /* DrawStyleViewController.h */,
+				D970D5A41B861306007851CF /* DrawStyleViewController.m */,
+			);
+			name = "DrawStyle(填充样式)";
+			sourceTree = "<group>";
+		};
+		D970D5A71B86130F007851CF /* NonZero(非零绕数填充法) */ = {
+			isa = PBXGroup;
+			children = (
+				D970D5A81B861349007851CF /* NonzeroViewController.h */,
+				D970D5A91B861349007851CF /* NonzeroViewController.m */,
+				D970D5AA1B861349007851CF /* NonzeroView.h */,
+				D970D5AB1B861349007851CF /* NonzeroView.m */,
+			);
+			name = "NonZero(非零绕数填充法)";
+			sourceTree = "<group>";
+		};
+		D970D5AE1B86135F007851CF /* PieOfProgress(进度条) */ = {
+			isa = PBXGroup;
+			children = (
+				D970D5AF1B86138E007851CF /* PieOfProgressViewController.h */,
+				D970D5B01B86138E007851CF /* PieOfProgressViewController.m */,
+				D970D5B11B86138E007851CF /* PieOfProgressView.h */,
+				D970D5B21B86138E007851CF /* PieOfProgressView.m */,
+			);
+			name = "PieOfProgress(进度条)";
+			sourceTree = "<group>";
+		};
+		D970D5B51B861395007851CF /* ScaleTranslateRotate(缩放|平移|旋转) */ = {
+			isa = PBXGroup;
+			children = (
+				D970D5B61B8613AF007851CF /* ScaleTranslateRotateView.h */,
+				D970D5B71B8613AF007851CF /* ScaleTranslateRotateView.m */,
+				D970D5B81B8613AF007851CF /* ScaleTranslateRotateViewController.h */,
+				D970D5B91B8613AF007851CF /* ScaleTranslateRotateViewController.m */,
+			);
+			name = "ScaleTranslateRotate(缩放|平移|旋转)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D970D5571B8611A6007851CF /* Quartz2D(BaseDemo) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D970D57B1B8611A6007851CF /* Build configuration list for PBXNativeTarget "Quartz2D(BaseDemo)" */;
+			buildPhases = (
+				D970D5541B8611A6007851CF /* Sources */,
+				D970D5551B8611A6007851CF /* Frameworks */,
+				D970D5561B8611A6007851CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quartz2D(BaseDemo)";
+			productName = "Quartz2D(BaseDemo)";
+			productReference = D970D5581B8611A6007851CF /* Quartz2D(BaseDemo).app */;
+			productType = "com.apple.product-type.application";
+		};
+		D970D5701B8611A6007851CF /* Quartz2D(BaseDemo)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D970D57E1B8611A6007851CF /* Build configuration list for PBXNativeTarget "Quartz2D(BaseDemo)Tests" */;
+			buildPhases = (
+				D970D56D1B8611A6007851CF /* Sources */,
+				D970D56E1B8611A6007851CF /* Frameworks */,
+				D970D56F1B8611A6007851CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D970D5731B8611A6007851CF /* PBXTargetDependency */,
+			);
+			name = "Quartz2D(BaseDemo)Tests";
+			productName = "Quartz2D(BaseDemo)Tests";
+			productReference = D970D5711B8611A6007851CF /* Quartz2D(BaseDemo)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D970D5501B8611A6007851CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = HSF;
+				TargetAttributes = {
+					D970D5571B8611A6007851CF = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					D970D5701B8611A6007851CF = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = D970D5571B8611A6007851CF;
+					};
+				};
+			};
+			buildConfigurationList = D970D5531B8611A6007851CF /* Build configuration list for PBXProject "Quartz2D(BaseDemo)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D970D54F1B8611A6007851CF;
+			productRefGroup = D970D5591B8611A6007851CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D970D5571B8611A6007851CF /* Quartz2D(BaseDemo) */,
+				D970D5701B8611A6007851CF /* Quartz2D(BaseDemo)Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D970D5561B8611A6007851CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D970D5821B8611D9007851CF /* Main.storyboard in Resources */,
+				D970D56C1B8611A6007851CF /* LaunchScreen.xib in Resources */,
+				D970D5691B8611A6007851CF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D970D56F1B8611A6007851CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D970D5541B8611A6007851CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D970D5AD1B861349007851CF /* NonzeroView.m in Sources */,
+				D970D5BB1B8613AF007851CF /* ScaleTranslateRotateViewController.m in Sources */,
+				D970D58A1B861261007851CF /* DrawBaseViewController.m in Sources */,
+				D970D5641B8611A6007851CF /* ViewController.m in Sources */,
+				D970D5911B861285007851CF /* BarView.m in Sources */,
+				D970D5981B8612A0007851CF /* PieViewController.m in Sources */,
+				D970D5611B8611A6007851CF /* AppDelegate.m in Sources */,
+				D970D59F1B8612D6007851CF /* EvenOddFillRuleViewController.m in Sources */,
+				D970D5B41B86138E007851CF /* PieOfProgressView.m in Sources */,
+				D970D5AC1B861349007851CF /* NonzeroViewController.m in Sources */,
+				D970D5A61B861306007851CF /* DrawStyleViewController.m in Sources */,
+				D970D5A51B861306007851CF /* DrawStyleAndFill.m in Sources */,
+				D970D5891B861261007851CF /* DrawBase.m in Sources */,
+				D970D5971B8612A0007851CF /* PieView.m in Sources */,
+				D970D5901B861285007851CF /* BarViewController.m in Sources */,
+				D970D55E1B8611A6007851CF /* main.m in Sources */,
+				D970D5BA1B8613AF007851CF /* ScaleTranslateRotateView.m in Sources */,
+				D970D59E1B8612D6007851CF /* EvenOddFillRuleView.m in Sources */,
+				D970D5B31B86138E007851CF /* PieOfProgressViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D970D56D1B8611A6007851CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D970D5781B8611A6007851CF /* Quartz2D_BaseDemo_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D970D5731B8611A6007851CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D970D5571B8611A6007851CF /* Quartz2D(BaseDemo) */;
+			targetProxy = D970D5721B8611A6007851CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D970D56A1B8611A6007851CF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D970D56B1B8611A6007851CF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D970D5791B8611A6007851CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D970D57A1B8611A6007851CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D970D57C1B8611A6007851CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Quartz2D(BaseDemo)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D970D57D1B8611A6007851CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Quartz2D(BaseDemo)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D970D57F1B8611A6007851CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Quartz2D(BaseDemo)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quartz2D(BaseDemo).app/Quartz2D(BaseDemo)";
+			};
+			name = Debug;
+		};
+		D970D5801B8611A6007851CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Quartz2D(BaseDemo)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quartz2D(BaseDemo).app/Quartz2D(BaseDemo)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D970D5531B8611A6007851CF /* Build configuration list for PBXProject "Quartz2D(BaseDemo)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D970D5791B8611A6007851CF /* Debug */,
+				D970D57A1B8611A6007851CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D970D57B1B8611A6007851CF /* Build configuration list for PBXNativeTarget "Quartz2D(BaseDemo)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D970D57C1B8611A6007851CF /* Debug */,
+				D970D57D1B8611A6007851CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D970D57E1B8611A6007851CF /* Build configuration list for PBXNativeTarget "Quartz2D(BaseDemo)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D970D57F1B8611A6007851CF /* Debug */,
+				D970D5801B8611A6007851CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D970D5501B8611A6007851CF /* Project object */;
+}
